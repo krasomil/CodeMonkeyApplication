@@ -22,6 +22,6 @@ class Dice:
         """
         return random.randint(1,self.sides)
 
-if __name__ == "__main__":
+if __name__ == "__main__": #pragma no cover
     dice = Dice()
     print(dice.roll())
