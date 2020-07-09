@@ -1,5 +1,7 @@
 # CodeMonkeyApplication
 
+Trivial Purfuit Game
+
 ## Codebase location
 
 [src](src)
