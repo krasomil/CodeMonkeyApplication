@@ -46,7 +46,6 @@ class Game():
                 self.logger.debug("Selecting {0} question".format(color))
                 # get a question from the color type
                 question = self.database.select_color_question(color)
-                self.logger.info(question)
                 # get an answer from the user
                 answer = self.questionHandler.query_user(question)
                 # evaluate the answer

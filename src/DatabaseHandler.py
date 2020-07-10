@@ -49,6 +49,6 @@ class DatabaseHandler():
         Return - the selected question
         """
         filtered_questions = [question for question in self.data if question ['color'] in color]
-        return filtered_questions[random.randint(0, len(filtered_questions) - 1)]
+        return random.choice(filtered_questions)
 
     
